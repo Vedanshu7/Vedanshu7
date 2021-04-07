@@ -12,7 +12,7 @@
 <br/>  
 
 <div align="center">
-            <a href="https://www.buymeacoffee.com/Vedanshu7" target="_blank" style="display: inline-block;">
+            <a href="" target="_blank" style="display: inline-block;">
                 <img
                     src="https://img.shields.io/badge/Visit-Again-green?style=flat-square" 
                     align="center"
