@@ -1,2 +1,2 @@
-![Vedanshu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vedanshu7&show_icons=true&theme=chartreuse-dark)
+![Vedanshu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vedanshu7&show_icons=true&theme=dark)
 
