@@ -3,7 +3,7 @@ name: Update GitHub Stats
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main 
 
 jobs:
   update-stats:
