@@ -1,8 +1,5 @@
 # <div align="center">Hi 👋, I'm Vedanshu Joshi</div>  
 
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Always+learning+new+things" align="center" />
-</div>
 
 ## Quick Facts About Me
 - 🔭 I'm currently working on improving my development skills
