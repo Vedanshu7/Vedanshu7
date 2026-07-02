@@ -1,0 +1,5 @@
+<svg width="440" height="80" viewBox="0 0 440 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vedanshu7 GitHub stats">
+  <text x="24" y="34" font-family="'Segoe UI', -apple-system, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">Vedanshu7's GitHub Stats</text>
+  <line x1="24" y1="46" x2="416" y2="46" stroke="#58a6ff" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="24" y="66" font-family="'Segoe UI', -apple-system, Ubuntu, sans-serif" font-size="13" fill="#58a6ff">Pending first generation — see .github/workflows/stats.yml</text>
+</svg>
