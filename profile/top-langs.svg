@@ -3,7 +3,7 @@
   <line x1="24" y1="46" x2="416" y2="46" stroke="#58a6ff" stroke-opacity="0.35" stroke-width="1"/>
   <text x="24" y="78" font-family="'Segoe UI', -apple-system, Ubuntu, sans-serif" font-size="13" fill="#58a6ff">Rich Text Format</text>
   <rect x="170" y="67" width="200" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
-  <rect x="170" y="67" width="89.1" height="10" rx="5" fill="#58a6ff"/>
+  <rect x="170" y="67" width="89.0" height="10" rx="5" fill="#58a6ff"/>
   <text x="416" y="78" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="13" fill="#58a6ff">44.5%</text>
   <text x="24" y="104" font-family="'Segoe UI', -apple-system, Ubuntu, sans-serif" font-size="13" fill="#58a6ff">JavaScript</text>
   <rect x="170" y="93" width="200" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
