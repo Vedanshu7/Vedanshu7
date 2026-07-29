@@ -57,7 +57,7 @@ query($login: String!, $cursor: String, $from: DateTime!, $to: DateTime!) {
       nodes {
         name
         stargazerCount
-        languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
+        languages(first: 25, orderBy: { field: SIZE, direction: DESC }) {
           edges {
             size
             node { name color }
@@ -139,7 +139,7 @@ LANGS_JSON="$(echo "$ALL_REPOS" | jq -c '
 ')"
 TOTAL_LANG_BYTES="$(echo "$LANGS_JSON" | jq '[.[].size] | add // 0')"
 TOP_LANGS="$(echo "$LANGS_JSON" | jq -c --argjson total "$TOTAL_LANG_BYTES" '
-  .[0:8] | map(. + {pct: (if $total > 0 then (.size / $total * 100) else 0 end)})
+  .[0:15] | map(. + {pct: (if $total > 0 then (.size / $total * 100) else 0 end)})
 ')"
 
 echo "Totals: stars=$TOTAL_STARS commits=$TOTAL_COMMITS(visible=$COMMITS_VISIBLE+restricted=$RESTRICTED) prs_opened=$PRS_OPENED prs_merged=$PRS_MERGED issues_opened=$ISSUES_OPENED" >&2
