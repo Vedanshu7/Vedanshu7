@@ -56,7 +56,7 @@ query($login: String!, $cursor: String, $from: DateTime!, $to: DateTime!) {
       totalPullRequestContributions
       totalIssueContributions
     }
-    repositories(first: 100, after: $cursor, ownerAffiliations: [OWNER], isFork: true) {
+    repositories(first: 100, after: $cursor, ownerAffiliations: [OWNER]) {
       pageInfo { hasNextPage endCursor }
       nodes {
         name
