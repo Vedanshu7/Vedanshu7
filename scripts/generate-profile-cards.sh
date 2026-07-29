@@ -8,6 +8,10 @@ OUT_DIR="${OUT_DIR:-profile}"
 ACCENT="#58a6ff"     # legible on #ffffff and #0d1117 alike
 TRACK="#8b949e"      # muted bar-track color, low opacity
 
+# Markup/document formats Linguist reports as "languages". Excluded before the
+# percentage denominator is computed, so the remaining shares renormalize to 100%.
+EXCLUDED_LANGS='["Rich Text Format"]'
+
 : "${GH_TOKEN:?GH_TOKEN must be set (export it from secrets.PAT in the workflow step) with repo + read:user scopes}"
 
 mkdir -p "$OUT_DIR"
@@ -131,8 +135,9 @@ if [ "$RESTRICTED" -gt $((COMMITS_VISIBLE * 3 + 10)) ]; then
 fi
 
 # ---- Top languages by aggregate byte size ----
-LANGS_JSON="$(echo "$ALL_REPOS" | jq -c '
+LANGS_JSON="$(echo "$ALL_REPOS" | jq -c --argjson excluded "$EXCLUDED_LANGS" '
   [.[].languages.edges[] | {name: .node.name, color: .node.color, size}]
+  | map(select(.name as $n | $excluded | index($n) | not))
   | group_by(.name)
   | map({name: .[0].name, color: .[0].color, size: (map(.size) | add)})
   | sort_by(-.size)
