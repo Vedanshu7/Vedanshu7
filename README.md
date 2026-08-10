@@ -4,14 +4,13 @@
 <img src="./profile/stats.svg" />
 </div>
 
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=Vedanshu7&theme=transparent&hide_border=true&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=58A6FF&dates=58A6FF&sideNums=58A6FF&fire=58A6FF&ring=58A6FF&stroke=58A6FF" align="center" />
-</div>
-
 ## Connect with me
 <div align="center">
 <a href="https://github.com/Vedanshu7" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.linkedin.com/in/vedanshu-joshi-549b67ba/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>
 </div>
 
